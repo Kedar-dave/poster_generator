@@ -1,0 +1,17 @@
+s3= movie-poster-design-caa900
+
+dynamodb- partition_key - user_id
+        sort_key- timestamp
+
+
+
+        
+MAX_PROMPT_LEN = 512
+DISALLOWED_KEYWORDS = [
+    "gun", "pistol", "rifle", "sniper", "weapon", "weapons",
+    "kill", "murder", "blood", "gore", "dead", "death",
+    "bomb", "explosion", "explode", "grenade",
+    "terrorist", "hostage", "suicide", "massacre",
+    "war", "soldier", "military", "combat",
+    "spy", "secret agent", "agent", "assassin", "hitman"
+]
